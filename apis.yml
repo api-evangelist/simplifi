@@ -1,0 +1,86 @@
+aid: simplifi
+name: Simplifi by Quicken
+description: >-
+  Simplifi by Quicken is a personal finance management application that
+  aggregates financial accounts from over 14,000 institutions, enabling users
+  to track spending, manage budgets, monitor investments, set savings goals, and
+  access projected cash flow analytics. The platform uses OAuth-based API
+  connections to banks and purpose-built APIs to billers to pull data into a
+  unified financial dashboard available on web and mobile.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+tags:
+  - Personal Finance
+  - Budgeting
+  - Financial Aggregation
+  - Account Management
+  - Spending Tracking
+  - Investment Tracking
+  - Savings Goals
+  - Cash Flow
+apis:
+  - aid: simplifi:simplifi-api
+    name: Simplifi by Quicken API
+    description: >-
+      Simplifi by Quicken provides a consumer personal finance platform that
+      connects to financial institutions via OAuth APIs and biller networks via
+      purpose-built APIs. Users can aggregate bank accounts, credit cards,
+      investment portfolios, and bill accounts to track spending, manage
+      budgets, forecast cash flow, and analyze personal financial health. No
+      public developer API is currently available; integrations are consumer-
+      facing via the Simplifi web and mobile applications.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.quicken.com/personal-finance/quicken-simplifi/
+    baseURL: https://app.simplifimoney.com
+    tags:
+      - Personal Finance
+      - Budgeting
+      - Financial Aggregation
+      - Account Management
+      - Spending Tracking
+      - Investment Tracking
+      - Savings Goals
+      - Cash Flow
+    properties:
+      - type: Documentation
+        url: https://support.simplifi.quicken.com/en/
+      - type: GettingStarted
+        url: https://support.simplifi.quicken.com/en/collections/2721906-getting-started
+      - type: PrivacyPolicy
+        url: https://www.quicken.com/privacy-policy/
+      - type: TermsOfService
+        url: https://www.quicken.com/terms-of-service/
+      - type: Blog
+        url: https://www.quicken.com/blog/search/simplifi
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/finops/finops.yml
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/finops/finops.yml
+  - type: Documentation
+    url: https://support.simplifi.quicken.com/en/
+  - type: Blog
+    url: https://www.quicken.com/blog/search/simplifi
+  - type: PrivacyPolicy
+    url: https://www.quicken.com/privacy-policy/
+  - type: TermsOfService
+    url: https://www.quicken.com/terms-of-service/
+  - type: StatusPage
+    url: https://www.saashub.com/simplifi-by-quicken-status
+  - type: Community
+    url: https://community.simplifimoney.com/
+maintainers:
+  - FN: Kin Lane
+    X-twitter: kinlane
+    email: kin@apievangelist.com

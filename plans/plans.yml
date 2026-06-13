@@ -1,0 +1,45 @@
+plans:
+  - name: Simplifi by Quicken
+    description: >-
+      Simplifi by Quicken is a subscription-based personal finance app for
+      individuals and couples. It provides account aggregation, budgeting,
+      investment tracking, and cash flow projections. Billed annually at a
+      discounted rate.
+    url: https://www.quicken.com/products/pricing-comparison-products/
+    price: "$2.99/month"
+    billing: "annually ($35.88/year)"
+    regularPrice: "$5.99/month"
+    features:
+      - Connect to 14,000+ financial institutions via OAuth API
+      - Budget tracking and spending plan
+      - Custom savings goals
+      - Investment portfolio management
+      - Retirement planning tools
+      - Personal tax reports (Schedule A and B)
+      - Cash flow projections
+      - Net worth tracking
+      - Credit score monitoring
+      - Bill and subscription tracking
+      - Mobile and web access
+      - 30-day risk-free trial
+      - Bank-level security (256-bit encryption)
+      - Two-factor authentication
+
+  - name: Quicken Business and Personal
+    description: >-
+      Includes all Simplifi features plus tools for self-employed professionals
+      and small business owners. Adds business reporting, invoicing via Stripe,
+      client and project tracking, and rental property management.
+    url: https://www.quicken.com/products/pricing-comparison-products/
+    price: "$3.99/month"
+    billing: "annually ($47.88/year)"
+    regularPrice: "$7.99/month"
+    features:
+      - All Simplifi features
+      - Business and personal account management
+      - Business reports (P&L, cash flow, balance sheet)
+      - Tax schedules C, E, and F
+      - Built-in invoicing with Stripe integration
+      - Client and project tracking
+      - Rental property income and expense management
+      - Business tax categorization

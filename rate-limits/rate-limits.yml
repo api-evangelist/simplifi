@@ -1,0 +1,41 @@
+rateLimits:
+  description: >-
+    Simplifi by Quicken does not expose a public developer API with documented
+    rate limits. The platform's connectivity is consumer-facing and operates
+    through internal OAuth connections to financial institutions and purpose-
+    built biller APIs. The following limits reflect known platform behaviors
+    for the consumer application.
+  url: https://support.simplifi.quicken.com/en/articles/5538663-how-often-does-quicken-simplifi-update-my-accounts
+  limits:
+    - name: Account Data Refresh
+      description: >-
+        Financial account balances and transactions are refreshed automatically
+        when a user signs into Simplifi. New transactions and balances are
+        downloaded from financial institutions every 4 to 6 hours.
+      interval: "4-6 hours"
+      scope: "per account"
+
+    - name: Scheduled Sync Window
+      description: >-
+        For OAuth-connected accounts, data updates typically occur nightly
+        outside business hours to minimize disruption and respect bank API
+        rate policies.
+      interval: "nightly"
+      scope: "platform-wide"
+
+    - name: Financial Institution Coverage
+      description: >-
+        Simplifi connects to over 14,000 financial institutions. Individual
+        institution API policies may impose their own constraints on data
+        freshness and transaction history depth.
+      limit: "14,000+ institutions supported"
+      scope: "platform"
+
+  notes:
+    - Simplifi does not publish a public API with rate limit documentation.
+    - No developer API keys or quota tiers are available to third parties.
+    - Data access constraints vary by financial institution and their own
+      OAuth API policies.
+    - Pending transaction support varies by institution; some banks such as
+      USAA, Capital One, and PNC do not support pending transactions via
+      their APIs.

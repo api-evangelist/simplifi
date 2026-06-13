@@ -1,0 +1,58 @@
+finops:
+  description: >-
+    Financial operations summary for Simplifi by Quicken. Simplifi is a
+    consumer subscription product with no metered API billing or usage-based
+    pricing. All cost exposure is through annual subscription fees. There are
+    no API call charges, data egress fees, or overage costs.
+  url: https://www.quicken.com/products/pricing-comparison-products/
+
+  subscriptions:
+    - tier: Simplifi by Quicken
+      billingModel: annual-subscription
+      monthlyEquivalent: "$2.99/month"
+      annualCost: "$35.88/year"
+      listPrice: "$5.99/month ($71.88/year)"
+      trialDays: 30
+      notes: >-
+        Single flat-rate subscription covering all personal finance features.
+        No per-seat pricing, no usage tiers, no API metering.
+
+    - tier: Quicken Business and Personal
+      billingModel: annual-subscription
+      monthlyEquivalent: "$3.99/month"
+      annualCost: "$47.88/year"
+      listPrice: "$7.99/month ($95.88/year)"
+      trialDays: 30
+      notes: >-
+        Includes all Simplifi features plus business tools. Flat annual rate
+        with no usage-based billing.
+
+  costDrivers:
+    - name: Subscription Fee
+      type: fixed
+      description: >-
+        The only cost is the annual subscription. No variable costs based on
+        accounts connected, transactions processed, or data accessed.
+
+  savingsOpportunities:
+    - name: Annual Billing Discount
+      description: >-
+        Subscribing annually versus monthly provides approximately a 50%
+        discount relative to the standard monthly list price.
+      potentialSaving: "~50% vs list price"
+
+    - name: Free Trial
+      description: >-
+        30-day risk-free trial allows evaluation before committing to an
+        annual subscription.
+      trialDays: 30
+
+  apiCosts:
+    description: >-
+      Simplifi by Quicken does not offer a public developer API. There are no
+      API key tiers, call-based pricing, or usage quotas. All platform access
+      is through the consumer web and mobile applications under the flat
+      subscription model.
+    publicApi: false
+    meterBilling: false
+    usageQuotas: false
