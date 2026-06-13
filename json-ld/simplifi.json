@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.quicken.com/personal-finance/quicken-simplifi/",
+  "name": "Simplifi by Quicken",
+  "description": "Simplifi by Quicken is a personal finance management application that aggregates financial accounts from over 14,000 institutions, enabling users to track spending, manage budgets, monitor investments, set savings goals, and access projected cash flow analytics.",
+  "url": "https://www.quicken.com/personal-finance/quicken-simplifi/",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.quicken.com/personal-finance/quicken-simplifi/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Quicken",
+    "url": "https://www.quicken.com/",
+    "sameAs": [
+      "https://www.quicken.com/"
+    ]
+  },
+  "featureList": [
+    "Financial account aggregation from 14,000+ institutions",
+    "Spending tracking and categorization",
+    "Budget management via Spending Plan",
+    "Investment portfolio monitoring",
+    "Savings goals tracking",
+    "Projected cash flow analytics",
+    "Bill tracking via Bill Connect",
+    "Web and mobile applications"
+  ],
+  "termsOfService": "https://www.quicken.com/terms-of-service/",
+  "privacyPolicy": "https://www.quicken.com/privacy-policy/",
+  "mainEntityOfPage": "https://support.simplifi.quicken.com/en/",
+  "sameAs": [
+    "https://app.simplifimoney.com",
+    "https://community.simplifimoney.com/"
+  ]
+}
