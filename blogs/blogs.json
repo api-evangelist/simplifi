@@ -1,6 +1,6 @@
 {
   "url": "https://www.quicken.com/blog/search/simplifi",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "What's New in Quicken Simplifi This Winter?",
@@ -53,7 +53,7 @@
       "date": "2022-02-03"
     },
     {
-      "title": "Your Simplifi Spending Plan — More Powerful Than Ever",
+      "title": "Your Simplifi Spending Plan \u2014 More Powerful Than Ever",
       "url": "https://www.quicken.com/blog/powerful-simplifi-spending-plan/",
       "date": "2021-12-29"
     },
@@ -92,5 +92,23 @@
       "url": "https://www.quicken.com/blog/7-ways-to-manage-spending-with-simplifi/",
       "date": "2020-12-04"
     }
-  ]
+  ],
+  "repo": "simplifi",
+  "feeds": [
+    {
+      "source": "https://www.quicken.com/terms-of-service/",
+      "feed_url": "https://www.quicken.com/terms-of-service/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://support.simplifi.quicken.com/en/",
+      "feed_url": "https://support.simplifi.quicken.com/en/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
