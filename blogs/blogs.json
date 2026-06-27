@@ -1,6 +1,6 @@
 {
   "url": "https://www.quicken.com/blog/search/simplifi",
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:03:07Z",
   "posts": [
     {
       "title": "What's New in Quicken Simplifi This Winter?",
@@ -95,6 +95,13 @@
   ],
   "repo": "simplifi",
   "feeds": [
+    {
+      "source": "https://www.quicken.com/blog/search/simplifi/feed/",
+      "feed_url": "https://www.quicken.com/blog/search/simplifi/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.quicken.com/terms-of-service/",
       "feed_url": "https://www.quicken.com/terms-of-service/",
