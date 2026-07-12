@@ -62,6 +62,8 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/finops/finops.yml
 common:
+  - type: DomainSecurity
+    url: security/simplifi-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/plans/plans.yml
   - type: RateLimits
