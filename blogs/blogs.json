@@ -1,6 +1,6 @@
 {
   "url": "https://www.quicken.com/blog/search/simplifi",
-  "fetched": "2026-06-27T12:03:07Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "posts": [
     {
       "title": "What's New in Quicken Simplifi This Winter?",
@@ -104,10 +104,7 @@
     },
     {
       "source": "https://www.quicken.com/terms-of-service/",
-      "feed_url": "https://www.quicken.com/terms-of-service/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     },
     {
       "source": "https://support.simplifi.quicken.com/en/",
@@ -117,5 +114,5 @@
       "method": "none"
     }
   ],
-  "post_count": 0
+  "post_count": 18
 }
