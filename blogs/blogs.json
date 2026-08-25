@@ -1,6 +1,6 @@
 {
   "url": "https://www.quicken.com/blog/search/simplifi",
-  "fetched": "2026-08-15T12:11:08Z",
+  "fetched": "2026-08-22T20:20:02Z",
   "posts": [
     {
       "title": "What's New in Quicken Simplifi This Winter?",
@@ -106,7 +106,7 @@
       "source": "https://support.simplifi.quicken.com/en/feed.xml",
       "feed_url": "https://support.simplifi.quicken.com/en/feed.xml",
       "title": "",
-      "saved": 14,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -121,5 +121,5 @@
       "method": "discovered"
     }
   ],
-  "post_count": 58
+  "post_count": 60
 }
