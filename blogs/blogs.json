@@ -1,6 +1,6 @@
 {
   "url": "https://www.quicken.com/blog/search/simplifi",
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "posts": [
     {
       "title": "What's New in Quicken Simplifi This Winter?",
@@ -53,7 +53,7 @@
       "date": "2022-02-03"
     },
     {
-      "title": "Your Simplifi Spending Plan — More Powerful Than Ever",
+      "title": "Your Simplifi Spending Plan \u2014 More Powerful Than Ever",
       "url": "https://www.quicken.com/blog/powerful-simplifi-spending-plan/",
       "date": "2021-12-29"
     },
@@ -96,24 +96,6 @@
   "repo": "simplifi",
   "feeds": [
     {
-      "source": "https://www.quicken.com/blog/search/simplifi/feed/",
-      "feed_url": "https://www.quicken.com/blog/search/simplifi/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
-      "source": "https://support.simplifi.quicken.com/en/feed.xml",
-      "feed_url": "https://support.simplifi.quicken.com/en/feed.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
       "source": "https://www.quicken.com/terms-of-service/",
       "error": "HTTPError"
     },
@@ -122,12 +104,24 @@
       "feed_url": "https://support.simplifi.quicken.com/en/feed.xml",
       "title": "",
       "saved": 0,
-      "method": "discovered",
-      "nature": "undetermined",
-      "nature_basis": null
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.quicken.com/blog/search/simplifi/feed/",
+      "feed_url": "https://www.quicken.com/blog/search/simplifi/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://support.simplifi.quicken.com/en/feed.xml",
+      "feed_url": "https://support.simplifi.quicken.com/en/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 74,
+  "post_count": 92,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."

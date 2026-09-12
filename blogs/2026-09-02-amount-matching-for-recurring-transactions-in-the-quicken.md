@@ -1,0 +1,7 @@
+---
+title: "Amount Matching for Recurring Transactions in the Quicken Simplifi Mobile App"
+url: "https://support.simplifi.quicken.com/en/articles/16783632-amount-matching-for-recurring-transactions-in-the-quicken-simplifi-mobile-app"
+date: "2026-09-02"
+feed_url: "https://support.simplifi.quicken.com/en/feed.xml"
+---
+Learn how to use the Amount Matching feature in Quicken Simplifi to handle Recurring Transactions with differing amounts each month
