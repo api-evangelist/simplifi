@@ -64,27 +64,70 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Simplifi by Quicken is a personal finance management application that aggregates financial accounts from over 14,000 institutions, enabling users to track spending, manage budgets, monitor investments, set savings goals, and access projected cash flow analytics.
+Simplifi by Quicken is a personal finance management application that aggregates financial accounts from over 14,000 institutions, enabling users to track spending, manage budgets, monitor investments, set savings goals, and access projected cash flow analytics. The platform uses OAuth-based API connections to banks and purpose-built APIs to billers to pull data into a unified financial dashboard available on web and mobile.
 
-## Overview
+**Areas:** Personal Finance · Budgeting · Financial Aggregation · Account Management · Spending Tracking · Investment Tracking · Savings Goals · Cash Flow
 
-- **Website:** https://www.quicken.com/personal-finance/quicken-simplifi/
-- **Documentation:** https://support.simplifi.quicken.com/en/
-- **Blog:** https://www.quicken.com/blog/search/simplifi
-- **Community:** https://community.simplifimoney.com/
-- **Pricing:** https://www.quicken.com/products/pricing-comparison-products/
+## Simplifi by Quicken on APIs.io
 
-## APIs.json
+Everything profiled for Simplifi by Quicken is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/simplifi/](https://apis.io/providers/simplifi/)** — or go straight to one of the APIs or properties below.
 
-This repository contains an APIs.json 0.19 profile for Simplifi by Quicken.
+### APIs (1)
 
-- [apis.yml](apis.yml) - Main APIs.json profile
-- [plans/plans.yml](plans/plans.yml) - Subscription pricing plans
-- [rate-limits/rate-limits.yml](rate-limits/rate-limits.yml) - Platform rate limit details
-- [finops/finops.yml](finops/finops.yml) - Financial operations summary
+- [Simplifi by Quicken API](https://apis.io/apis/simplifi/simplifi-api/) — Simplifi by Quicken provides a consumer personal finance platform that connects to financial institutions via OAuth APIs and biller networks via…
 
-## Notes
+### Published properties
 
-Simplifi by Quicken does not expose a public developer API. The platform uses internal OAuth connections to financial institutions and purpose-built biller APIs as consumer-facing integrations. Community members have requested a public API, but as of 2026, none has been released.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Maintained by [Kin Lane](https://apievangelist.com) / [API Evangelist](https://apievangelist.com).
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Simplifi Domain Security](https://apis.io/security/simplifi/simplifi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/simplifi/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/simplifi/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/simplifi/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Documentation](https://support.simplifi.quicken.com/en/)
+- [Blog](https://www.quicken.com/blog/search/simplifi)
+- [Terms of service](https://www.quicken.com/terms-of-service/)
+- [Privacy policy](https://www.quicken.com/privacy-policy/)
+- [Status](https://www.saashub.com/simplifi-by-quicken-status)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Simplifi by Quicken: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/simplifi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
